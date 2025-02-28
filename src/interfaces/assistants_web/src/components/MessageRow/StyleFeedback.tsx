@@ -66,3 +66,9 @@ export default function TextRefinementUI() {
     </>
   );
 }
+/*
+Copyright (c) [2025] [Brianna Iwu]
+All Rights Reserved
+This code is submitted as part of a job application process and may not be used,
+reproduced, or distributed without explicit written permission.
+*/
