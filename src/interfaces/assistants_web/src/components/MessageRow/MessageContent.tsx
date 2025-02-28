@@ -16,6 +16,8 @@ import {
 } from '@/types/message';
 import { cn, formatFileSize } from '@/utils';
 
+import StyleFeedback from './StyleFeedback';
+
 type Props = {
   isLast: boolean;
   message: ChatMessage;
@@ -154,6 +156,7 @@ export const MessageContent: React.FC<Props> = ({ isLast, message, onRetry }) =>
           )}
         </MessageInfo>
       )}
+      <StyleFeedback />
     </MessageWrapper>
   );
 };
